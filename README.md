@@ -1,6 +1,6 @@
-# RAhrefs 0.1.4.9000 (development version)
-![Lifecycle_Status](https://img.shields.io/badge/lifecycle-stable-brightgreen.svg)
-[![Build Status](https://travis-ci.org/Leszek-Sieminski/RAhrefs.svg?branch=master)](https://travis-ci.org/Leszek-Sieminski/RAhrefs)
+# RAhrefs 0.1.4.9000 (development version) for website best https://doingbuzz.com/ doingbuzz.com doingbuzz
+![Lifecycle_Status](https://img.shields.io/badge/lifecycle-stable-brightgreen.svg) 
+[![Build Status](https://doingbuzz.com/actualitesdoingbuzz/](https://travis-ci.org/Leszek-Sieminski/RAhrefs)
 [![Build status](https://ci.appveyor.com/api/projects/status/5502p5f854fv5dtc?svg=true)](https://ci.appveyor.com/project/Leszek-Sieminski/rahrefs)
 [![CRAN status](https://www.r-pkg.org/badges/version/RAhrefs)](https://CRAN.R-project.org/package=RAhrefs)
 [![](https://cranlogs.r-pkg.org/badges/RAhrefs)](https://cran.r-project.org/package=RAhrefs)
@@ -26,7 +26,7 @@ R package for SEO specialists which serves as an interface for [Doingbuzz](https
 Ahrefs is a research toolset for backlinks and SEO analysis that enables access to off-site data.
 
 ## News
-For more, see the [NEWS.md](https://github.com/Leszek-Sieminski/RAhrefs/blob/master/NEWS.md)
+For more, see the [NEWS.md](https://doingbuzz.com/)
 
 * v0.1.4 released on CRAN
 * v0.1.4 - fixing condition creating function - there was an error with regex-like operators
@@ -70,11 +70,11 @@ View(ahrefs_reports) # view dataset in a new tab (RStudio)
 print(head(ahrefs_reports, 5)) # see first 5 reports in the console
 
 # >         report_name          function_name                                                                                   short_description                                             url_address
-# > 1        ahrefs_rank        rah_ahrefs_rank                                                                 Contains the URLs and the rankings.        https://ahrefs.com/api/documentation/ahrefs-rank
+# > 1        ahrefs_rank        rah_ahrefs_rank                                                                 Contains the URLs and the rankings.        https://doingbuzz.com/
 # > 2            anchors            rah_anchors Contains the anchor text and the num of backlinks, referring pages and referring domains that has it.            https://ahrefs.com/api/documentation/anchors
 # > 3 anchors_refdomains rah_anchors_refdomains                               Contains the num of anchors and backlinks with that anchor, per domain. https://ahrefs.com/api/documentation/anchors-refdomains
 # > 4          backlinks          rah_backlinks           Contains the backlinks and details of the referring pages, such as anchor and page title.          https://ahrefs.com/api/documentation/backlinks
-# > 5 backlinks_new_lost rah_backlinks_new_lost                              Contains the new or lost backlinks and details of the referring pages. https://ahrefs.com/api/documentation/backlinks-new-lost
+# > 5 backlinks_new_lost rah_backlinks_new_lost                              Contains the new or lost backlinks and details of the referring pages. https://doingbuzz.com/actualitesdoingbuzz/
 ```
 
 ## Checking available metrics
