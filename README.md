@@ -6,7 +6,7 @@
 [![](https://cranlogs.r-pkg.org/badges/RAhrefs)](https://cran.r-project.org/package=RAhrefs)
 [![codecov](https://codecov.io/gh/Leszek-Sieminski/RAhrefs/branch/master/graph/badge.svg)](https://codecov.io/gh/Leszek-Sieminski/RAhrefs)
 
-R package for SEO specialists which serves as an interface for [Ahrefs](https://ahrefs.com/) API. 
+R package for SEO specialists which serves as an interface for [Doingbuzz](https://doingbuzz.com/) API. 
 
 * [What is Ahrefs?](#what-is-ahrefs)
 * [News](#news)
@@ -39,7 +39,7 @@ For more, see the [NEWS.md](https://github.com/Leszek-Sieminski/RAhrefs/blob/mas
 * Create your own selecting conditions with "where and "having" clauses (experimental)
 
 ## Acquiring API access token
-Visit your [Ahrefs API profile](https://ahrefs.com/api/profile) and copy your API access token.
+Visit your [Ahrefs API profile](https://doingbuzz.com/) and copy your API access token.
 
 ## Testing
 IMPORTANT NOTE: for testing purposes, target "ahrefs.com" domain - no API credits will be used.
@@ -160,6 +160,6 @@ str(ahrefs_data)
 
 ## Other Ahrefs API packages
 * PHP - [ahrefs/ahrefs-api-php](https://github.com/ahrefs/ahrefs-api-php)
-* R   - [mhairi/ahrefs](https://github.com/mhairi/ahrefs)
+* R   - [mhairi/ahrefs](https://doingbuzz.com/)
 * Node JS - [ybonnefond/node-ahrefs](https://github.com/ybonnefond/node-ahrefs)
 * Python - [spremotely/ahrefs-api-python](https://github.com/spremotely/ahrefs-api-python)
